@@ -12,11 +12,38 @@ const SplashScreen = () => {
                 justifyContent: 'center',
             }}>
             <Logo />
-            <View style={{height: 38}}/>
+            <View 
+                style={{
+                    height: 38, 
+                }}/>
             <Text
                 style={{
-                    fontSize: 32, 
-                    color: '#020202'}}
+                    fontSize: 50, 
+                    color: '#020202',
+                    fontFamily: 'Poppins-Medium'
+                }}
+            >FoodMarket</Text>
+             <Text
+                style={{
+                    fontSize: 50, 
+                    color: '#020202',
+                    fontFamily: 'PottaOne-Regular'
+                    
+                }}
+            >FoodMarket2</Text>
+             <Text
+                style={{
+                    fontSize:50, 
+                    color: '#020202',
+                    fontFamily: 'Poppins-Light'
+                }}
+            >FoodMarket</Text>
+            <Text
+                style={{
+                    fontSize:50, 
+                    color: '#020202',
+                    fontFamily: 'Poppins-Regular'
+                }}
             >FoodMarket</Text>
         </View>
     );

@@ -6,11 +6,17 @@ import {
 } from 'react-native';
 import { SplashScreen } from './pages';
 
+import 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
+
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-        <SplashScreen />
+      <NavigationContainer>
+         <SplashScreen />
+      </NavigationContainer>
+       
     </>
   );
 };
