@@ -8,6 +8,7 @@ target 'foodMarket' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
   target 'foodMarketTests' do
     inherit! :complete
     # Pods for testing

@@ -4,14 +4,13 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import { SplashScreen } from './pages';
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <Text>Food Market Apps</Text>
-      </SafeAreaView>
+        <SplashScreen />
     </>
   );
 };
