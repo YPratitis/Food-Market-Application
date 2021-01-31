@@ -19,7 +19,7 @@ const SignIn = () => {
                 <Gaps height={24}/>
                 <Buttons text="Sign In"/>
                 <Gaps height={12}/>
-                <Buttons text="Create New Account" color="#8D92A3"/>
+                <Buttons text="Create New Account" color="#8D92A3" textColor="white" />
                 
             </View>
             
