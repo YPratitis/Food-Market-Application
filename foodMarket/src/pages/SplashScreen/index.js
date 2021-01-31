@@ -23,14 +23,7 @@ const SplashScreen = () => {
                     fontFamily: 'Poppins-Medium'
                 }}
             >FoodMarket</Text>
-             <Text
-                style={{
-                    fontSize: 50, 
-                    color: '#020202',
-                    fontFamily: 'PottaOne-Regular'
-                    
-                }}
-            >FoodMarket2</Text>
+            
            
         </View>
     );
