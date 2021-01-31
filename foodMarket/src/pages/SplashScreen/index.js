@@ -31,20 +31,7 @@ const SplashScreen = () => {
                     
                 }}
             >FoodMarket2</Text>
-             <Text
-                style={{
-                    fontSize:50, 
-                    color: '#020202',
-                    fontFamily: 'Poppins-Light'
-                }}
-            >FoodMarket</Text>
-            <Text
-                style={{
-                    fontSize:50, 
-                    color: '#020202',
-                    fontFamily: 'Poppins-Regular'
-                }}
-            >FoodMarket</Text>
+           
         </View>
     );
 };
