@@ -34,13 +34,13 @@ export default SignIn;
 
 const styles = StyleSheet.create({
     page : {
-        flex: 1
+        flex: 1,
     },
     container : {
         backgroundColor: 'white',
         paddingHorizontal: 24,
         paddingVertical: 26,
-        paddingTop: 24,
+        marginTop: 24,
         flex: 1
     }
 })

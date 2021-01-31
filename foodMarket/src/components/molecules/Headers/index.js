@@ -6,19 +6,16 @@ import { Icback } from '../../../assets/icon'
 const Headers = ({title, subTitle, onBack}) => {
     return (
         <View style={styles.container}> 
-        {
-            onBack && (
+        { onBack && (
                <TouchableOpacity activeOpacity={0.7}>
                     <View style={styles.back}>
                         <Icback />   
                     </View>    
                 </TouchableOpacity>  
-            )
-        }
-            
+            )}
             <View>
                 <Text style={styles.title}>{title}</Text>
-            <Text style={styles.subTitle}>{subTitle}</Text>
+                <Text style={styles.subTitle}>{subTitle}</Text>
             </View>
             
         </View>
@@ -34,7 +31,7 @@ const styles = StyleSheet.create({
         paddingTop: 30,
         paddingBottom: 24,
         flexDirection : 'row',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     title: {
         fontSize: 22,
@@ -47,7 +44,6 @@ const styles = StyleSheet.create({
         color: '#8D92A3'
     },
     back: {
-        // backgroundColor:'yellow',
         padding: 16,
         marginRight: 16,
         marginLeft: -10
