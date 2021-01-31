@@ -16,6 +16,7 @@ import {
 
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { ButtomNav } from '../components';
 
 
 const Stack = createStackNavigator();
@@ -23,7 +24,7 @@ const Tab = createBottomTabNavigator();
 
 const MainApp = () => {
     return(
-        <Tab.Navigator>
+        <Tab.Navigator  tabBar={props => <ButtomNav {...props} />} >
             <Tab.Screen 
                 name="Home"
                 component={Home}
@@ -38,7 +39,7 @@ const MainApp = () => {
             />
         </Tab.Navigator>
     );
-}
+};
 
 const Router = () => {
     

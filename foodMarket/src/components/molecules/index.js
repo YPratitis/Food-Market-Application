@@ -1,6 +1,8 @@
-
-import Headers from './Headers'
+import Headers from './Headers';
+import ButtomNav from './BottomNav';
 
 export {
-    Headers
+    Headers,
+    ButtomNav
+  
 }
