@@ -13,3 +13,5 @@ Create food market applications using the React Native framework
 ## Address Page
 ![Address Page](https://github.com/YPratitis/Food-Market-Application/blob/main/foodMarket/src/screenshoot/Address.png)
 
+## Success Sign Up
+![Address PAge](https://github.com/YPratitis/Food-Market-Application/blob/main/foodMarket/src/screenshoot/SuccessSignUp.png)
